@@ -11,6 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Tim",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim-Saijun/data-cleanser-llm-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tim-Saijun/data-cleanser-llm-node/issues"
+  },
+  "homepage": "https://github.com/Tim-Saijun/data-cleanser-llm-node#readme"
 }

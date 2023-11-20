@@ -16,7 +16,7 @@ The script excepts a CSV file called test.csv
 You indicate the src column name and the dest col name (the CSV file must have headers).
 
 A new destFile is created. It will have an additional column called destCol in it with the normalized data value.
-
+TODO: 将API的调用地址从api.openai.com修改为实际地址，目前是手动替换node_modules\openai-api\dist\index.js中的api.openai.com为实际地址
 
 ## Prompt
 The main prompt we are using is

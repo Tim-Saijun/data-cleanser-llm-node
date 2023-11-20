@@ -4,7 +4,8 @@ const csv = require('csv-parser');
 const { stringify } = require("csv-stringify");
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
+    apiKey: 'sk-9dRheARO9Jv7nljKCaOB59E4W6pjNMXdaOokFic5Uc2maHMf',
+    apiEndpoint: 'https://openkey.cloud'
 });
 const openai = new OpenAIApi(configuration);
 
@@ -37,7 +38,7 @@ Example Example output:  [[1,7],[2,1],[3,5],[4,8],[5,7]]
 let batchSize = 50;
 
 //                   In file, column name, outfile, out col name, categories and main prompt
-classifyCSVFileData('npi-data/small-samp.csv','Major','npi-data/small-samp-out.csv','Std Major')
+classifyCSVFileData('test.csv','Major','npi-data/test-out.csv','Std Major')
 
 
 async function classifyCSVFileData(fileName, srcCol, destFileName, targetCol) {
