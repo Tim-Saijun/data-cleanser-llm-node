@@ -4,8 +4,9 @@ const csv = require('csv-parser');
 const { stringify } = require("csv-stringify");
 
 const configuration = new Configuration({
-    apiKey: 'sk-9dRheARO9Jv7nljKCaOB59E4W6pjNMXdaOokFic5Uc2maHMf',
-    apiEndpoint: 'https://openkey.cloud'
+    // apiKey: 'sk',
+    basePath: 'https://ai.fakeopen.com'
+    
 });
 const openai = new OpenAIApi(configuration);
 
